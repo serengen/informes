@@ -1,5 +1,5 @@
 <ul class="container text-center col-6" style="margin-top: 11%;">
-<li *ngFor="let item of informes" class="row justify-content-md-center form-control" style="width: auto;" routerLink='/informes'>   
-       {{item}} 
+<li *ngFor="let item of informes" class="row justify-content-md-center form-control" style="width: auto;" [routerLink]="['/ver_informe',item.id]">   
+       {{item.fecha}} 
 </li>
 </ul>

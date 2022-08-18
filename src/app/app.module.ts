@@ -7,11 +7,15 @@ import { InformesModule } from './info/informes/informes.module';
 import { LoginModule } from './info/login/login.module';
 import { NuevoInformeModule } from './info/nuevo-informe/nuevo-informe.module';
 import { PacientesModule } from './info/pacientes/pacientes.module';
+import { VerInformeComponent } from './info/ver-informe/ver-informe.component';
+import { MensualComponent } from './info/mensual/mensual.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VerInformeComponent,
+    MensualComponent
   ],
   imports: [
     BrowserModule,

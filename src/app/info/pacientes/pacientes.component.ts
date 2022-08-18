@@ -7,5 +7,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PacientesComponent {
   
-  pacientes: any[] = ['tomas navarro','gustavo navarro','juan perez','pedro perez','jose perez'];
+  pacientes: any[] = [
+    {
+      id: 2,
+      nombre: 'tomas navarro'
+    },
+    {
+      id: 1234,
+      nombre: 'gustavo navarro'
+    },
+    {
+      id: 5,
+      nombre: 'juan perez'
+    },
+    {
+      id: 75,
+      nombre: 'pedro perez'
+    },
+    {
+      id: 16,
+      nombre: 'jose perez'
+    }
+  ];
 }
