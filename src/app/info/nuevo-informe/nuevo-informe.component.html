@@ -1,1 +1,13 @@
-<p>nuevo-informe works!</p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+        <div class="card-header text-bg-light" style="border-radius: 5px; margin: 3%;">
+            <h4 class="card-title">Nuevo Informe de {{informe.nombre | titlecase}}</h4>
+            <p class="card-category">{{informe.fecha}}</p>
+        </div>
+        <div  style="border-radius: 5px; margin: 3%;">
+            <textarea class="form-control" aria-label="With textarea" ></textarea>
+            <br>
+            <button class="btn btn-success btn-block" [routerLink]="['/informes',id]">Enviar Informe</button>
+        </div>
+</div>

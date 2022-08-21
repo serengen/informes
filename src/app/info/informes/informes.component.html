@@ -1,3 +1,14 @@
+<div class="row">
+       <div class="col">
+              <div class="botones">
+                     <button class="btn btn-primary btn-block" routerLink="/nuevo">Nuevo Informe</button>
+                     <button class="btn btn-success btn-block" routerLink="/mensual">Informe Mensual</button>
+                       
+              </div>
+                     
+       </div>
+</div>
+
 <ul class="container text-center col-6" style="margin-top: 11%;">
 <li *ngFor="let item of informes" class="row justify-content-md-center form-control" style="width: auto;" [routerLink]="['/ver_informe',item.id]">   
        {{item.fecha}} 
